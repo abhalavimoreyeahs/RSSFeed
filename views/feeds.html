@@ -1,0 +1,29 @@
+<html>
+<header>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</header>
+<body>
+  <table class="table table-striped">
+    <tr>
+      <th>Title</th>
+      <th>Description</th>
+      <!-- <th>Link</th> -->
+    </tr>
+
+    <% for (var i = 0; i < result.length; i++) { %>
+    <tr>
+      <td><%= result[i].title %></td>
+      <td><%= result[i].description %></td>
+      <!-- <td><%= result[i].link %></td> -->
+    </tr>
+    <% } %>
+  </table>
+</body>
+
+</html>
+
+<script>
+
+</script>
